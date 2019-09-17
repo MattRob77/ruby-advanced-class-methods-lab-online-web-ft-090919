@@ -14,8 +14,8 @@ class Song
 
   def self.create(name=nil, artist_name=nil)
     #binding.pry
-    song = self.new #initialize song
-    song.name = name # set song name
+    song = self.new 
+    song.name = name 
     song.artist_name = artist_name
     @@all << song 
     song
